@@ -1,0 +1,11 @@
+logging:
+  file:
+    path: ./logs
+
+integration-point:
+  git-hub-api:
+    url: https://api.github.com/
+    readTimeout: 5s
+
+server:
+  port: 8009
