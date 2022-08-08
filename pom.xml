@@ -47,16 +47,6 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.openapitools</groupId>-->
-<!--            <artifactId>jackson-databind-nullable</artifactId>-->
-<!--            <version>0.2.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.fasterxml.jackson.core</groupId>-->
-<!--            <artifactId>jackson-databind</artifactId>-->
-<!--            <version>2.13.1</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -153,33 +143,6 @@
                     </execution>
                 </executions>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.openapitools</groupId>-->
-<!--                <artifactId>openapi-generator-maven-plugin</artifactId>-->
-<!--                <version>5.1.0</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>git-hub-api</id>-->
-<!--                        <goals>-->
-<!--                            <goal>generate</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <inputSpec>-->
-<!--                                ${project.basedir}/src/main/resources/rest/git-hub.openapi.json-->
-<!--                            </inputSpec>-->
-<!--                            <generatorName>spring</generatorName>-->
-<!--                            &lt;!&ndash;                            <apiPackage>com.baeldung.openapi.api</apiPackage>&ndash;&gt;-->
-<!--                            <modelPackage>com.github.openapi.model</modelPackage>-->
-<!--                            <supportingFilesToGenerate>-->
-<!--                                ApiUtil.java-->
-<!--                            </supportingFilesToGenerate>-->
-<!--                            <configOptions>-->
-<!--                                <delegatePattern>true</delegatePattern>-->
-<!--                            </configOptions>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
         </plugins>
     </build>
 
